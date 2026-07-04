@@ -31,7 +31,7 @@ export const imageData = [
   },
 ];
 
-export const baseServerURL = "http://gloaf.onrender.com/api"
+export const baseServerURL = "http://localhost:8000/api"
 
 export const api = axios.create({
   baseURL: baseServerURL,
